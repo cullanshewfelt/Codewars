@@ -30,8 +30,6 @@ function validSolution(board){
     }
   }
 
-  // console.log(33, sectionsMatrix)
-
   board.forEach(row => {
     let temp = [...options];
     row.forEach((cell, i) => {
